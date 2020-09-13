@@ -3,7 +3,7 @@ MATLAB Tools
 
 Container for general-purpose MATLAB tools.
 
-### Contributing
+### ➕ Contributing
 We accept contributions via [forks and pull-requests](https://guides.github.com/activities/forking).
 
 ### 👨🏻‍💻 Maintainers
