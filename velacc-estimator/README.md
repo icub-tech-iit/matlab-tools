@@ -1,0 +1,1 @@
+Model to experiment with **adaptive windowing techniques** as per the paper "_Discrete-time adaptive windowing for velocity estimation_" available at https://dx.doi.org/10.1109/87.880606.
