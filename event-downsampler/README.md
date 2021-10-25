@@ -13,7 +13,7 @@ The handler is composed of two parallel charts:
 - `EventHandler` is the actual handler implementing the logic below:
   - If the occurrence of the events is above a threshold, then it triggers the output only each second (i.e., same lapse as above).
   - Otherwise, output = input.
-  - 
+
 We have only 2 params:
 - The temporal window is used to evaluate the frequency of the input events and to carry out down-sampling at the output stage.
 - The threshold for the events detected in the window above which triggers down-sampling (default = 5).
