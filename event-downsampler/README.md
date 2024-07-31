@@ -4,7 +4,7 @@ Event Downsampler
 ![model](./assets/model.png)
 
 This FSM aims to downsample events in a stream. To this end, it receives as input the counter of the events and yields as output
-a bunch of information including when to print a message reporting on the aggregate of the number of events tha have occurred.
+a bunch of information including when to print a message reporting on the aggregate of the number of events that have occurred.
 
 The FSM is composed of two parallel charts:
 
@@ -17,9 +17,9 @@ We have only 2 params:
 - The threshold for the events detected in the window above, which triggers down-sampling (default = 5).
 
 The output of the handler is threefold:
-- The boolean `DOWNSAMPLE` that is `1` when the handler is downsampling the input events. 
-- The boolean `TRIGGER` that tells when to print the message.
-- The integer `CNT_OUT` that accounts for the number of events that occurred since the last print (this info can be used to populate the message).
+- The boolean `DOWNSAMPLE`: equal to `1` when the handler is downsampling the input events. 
+- The boolean `TRIGGER`: it tells when to print the message.
+- The integer `CNT_OUT`: it accounts for the number of events that occurred since the last print (this info can be used to populate the message).
 
 Here's below a typical outcome:
 
